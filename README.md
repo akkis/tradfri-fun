@@ -15,7 +15,7 @@ Run the following commands:
 
 ```bash
 $ cd
-$ sudo apt install git automake libtool python3-pi
+$ sudo apt install git automake libtool python3-pip
 $ git clone --depth 1 --recursive -b dtls https://github.com/home-assistant/libcoap.git
 $ cd libcoap
 $ ./autogen.sh
