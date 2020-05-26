@@ -25,6 +25,8 @@ $ sudo make install
 $ cd
 $ pip3 install pytradfri
 ```
+Note: in case you have issues try `make  all-recursive` instead of `make`
+
 You can safely remove the ~/libcoap directory at this point.
 
 Run the test script to check communication with the gateway:
