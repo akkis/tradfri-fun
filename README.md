@@ -21,7 +21,7 @@ $ cd libcoap
 $ ./autogen.sh
 $ ./configure --disable-documentation --disable-shared --without-debug CFLAGS="-DCOAP_DEBUG_FD=stderr"
 $ make
-$ make install
+$ sudo make install
 $ cd
 $ pip3 install pytradfri
 ```
